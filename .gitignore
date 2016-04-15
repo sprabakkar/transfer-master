@@ -3,12 +3,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-**/target/
-/target/
-*/target/*
+target/
+bin/
+.settings/
 .classpath
 .project
-.settings
+.attach_pid*
 
 # Package Files #
 *.jar
