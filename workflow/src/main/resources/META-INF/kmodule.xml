@@ -1,0 +1,7 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+
+
+<kbase name="kbase" packages="gov.loc.cts.receive">
+        <ksession name="ksession-process"/>
+    </kbase>
+</kmodule>
