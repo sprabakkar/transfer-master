@@ -1,11 +1,15 @@
 import org.drools.core.process.core.datatype.impl.type.StringDataType;
 
 [
-  [
-    "name" : "some",
-    "parameters" : [
-      "From" : new StringDataType()
-    ],
-    "displayName" : "some"
+    [
+    "name" : "HelloProcessExtension",
+     "parameters" : [
+         "param1" : new StringDataType(),
+         "param2" : new StringDataType(),
+         "param3" : new StringDataType(),
+      ],
+     
+     "icon" : "icons/world.png",
+    "displayName" : "Prabakar"
   ]
 ]

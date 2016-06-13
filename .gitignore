@@ -8,6 +8,7 @@ bin/
 .settings/
 .classpath
 .project
+.tern-project
 .attach_pid*
 
 # Package Files #

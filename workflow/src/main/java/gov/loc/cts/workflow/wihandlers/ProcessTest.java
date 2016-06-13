@@ -27,12 +27,13 @@ public class ProcessTest {
             kSession.getWorkItemManager().registerWorkItemHandler("HelloProcessExtension", 
             		                                       new HelloProcessExtension());
             Map<String, Object> params = new HashMap<String, Object>();
-            params.put("variable1", "Dia duit Domhanda");
-            params.put("variable2", "Hallo Welt");
-            params.put("variable3", "Bonjour tout le monde");
+            params.put("variable1", "One Variable Prints now....");
+            params.put("variable2", "Two Variable Prints now....");
+            params.put("variable3", "Three Variable Prints now....");
             
 
-            kSession.startProcess("com.loc.cts.receive.hello", params);
+            kSession.startProcess("gov.loc.cts.receive.hello", params);
+            kSession.dispose();
         } catch (Throwable t) {
             t.printStackTrace();
         }
