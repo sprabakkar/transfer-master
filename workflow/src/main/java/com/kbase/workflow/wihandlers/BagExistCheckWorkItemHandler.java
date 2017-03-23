@@ -1,6 +1,4 @@
-package gov.loc.cts.workflow.wihandlers;
-
-import gov.loc.cts.workflow.dsservice.BagBuilder;
+package com.kbase.workflow.wihandlers;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,6 +6,8 @@ import java.util.Map;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
 import org.kie.api.runtime.process.WorkItemManager;
+
+import com.kbase.workflow.dsservice.BagBuilder;
 
 public class BagExistCheckWorkItemHandler implements WorkItemHandler {
 

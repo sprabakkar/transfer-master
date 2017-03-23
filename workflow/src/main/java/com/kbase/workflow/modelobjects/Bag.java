@@ -1,4 +1,4 @@
-package gov.loc.cts.workflow.modelobjects;
+package com.kbase.workflow.modelobjects;
 
 import java.io.Serializable;
 

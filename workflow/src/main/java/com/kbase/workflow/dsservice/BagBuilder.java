@@ -1,11 +1,11 @@
-package gov.loc.cts.workflow.dsservice;
-
-import gov.loc.cts.workflow.modelobjects.Bag;
+package com.kbase.workflow.dsservice;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.kbase.workflow.modelobjects.Bag;
 
 public class BagBuilder {
 	

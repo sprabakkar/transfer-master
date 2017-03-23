@@ -1,4 +1,4 @@
-package gov.loc.cts.transfercore;
+package com.kbase.coreservice;
 
 public class Test {
 
